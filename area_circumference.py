@@ -1,4 +1,4 @@
-
+import math
 
 def area():
     area = ""
@@ -12,9 +12,8 @@ area()
 
 def circumference():
     circumference = ""
-    p = 3.14159265359
     r = int(input('What is the radius of the circle? '))
-    circumference = 2*p*r
+    circumference = 2*math.pi*r
     print(f'The circumference of the circe is {circumference}.')
 
 
